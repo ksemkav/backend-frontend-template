@@ -1,0 +1,10 @@
+opensearch.hosts: ["https://opensearch-node1:9200"]
+opensearch.ssl.verificationMode: none
+opensearch.username: "kibanaserver"
+opensearch.password: "Fgj4e5bUzdeVNFKieBu0"
+opensearch.requestHeadersAllowlist: [ authorization,securitytenant ]
+opensearch_security.multitenancy.enabled: false
+opensearch_security.multitenancy.tenants.preferred: ["Global"]
+opensearch_security.readonly_mode.roles: ["kibana_read_only"]
+opensearch_security.cookie.secure: false
+server.host: '0.0.0.0'
